@@ -23,7 +23,6 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
             articoli = new List<Articolo>();
 
         }
-
         private void btnAggiungiArticolo_Click(object sender, EventArgs e)
         {
             frmArticolo f = new frmArticolo();
