@@ -60,7 +60,12 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
             int index = lstElenco.FindString(curItem);
 
             // TODO: (3) aggiungere visualizzazione dettaglio articolo nelle label
-            // ... lblDescrizione.Text = articoli[index].Descrizione;
+            lblDescrizione.Text = articoli[index].Descrizione;
+            lblUnitaMisura.Text = articoli[index].UnitaMisura;
+            lblprezzo.Text = articoli[index].Prezzo;
+            
+
+
 
         }
     }
