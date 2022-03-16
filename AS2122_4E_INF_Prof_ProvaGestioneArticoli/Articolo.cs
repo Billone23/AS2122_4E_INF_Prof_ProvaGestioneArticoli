@@ -24,6 +24,7 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
         {
             // TODO: (10) impostazione costruttore classe Articolo come utilizzato da frmMain
             // ...
+
         }
 
         public string Visualizzati()
